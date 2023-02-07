@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/meghanasai.github.io/static/css/main.76ae1015.css",
-    "main.js": "/meghanasai.github.io/static/js/main.7b160254.js",
+    "main.js": "/meghanasai.github.io/static/js/main.0196cb5d.js",
     "static/js/787.fb771931.chunk.js": "/meghanasai.github.io/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/meghanasai.github.io/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/meghanasai.github.io/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/resume.pdf": "/meghanasai.github.io/static/media/resume.62f0ea5e46aaa0617dfc.pdf",
     "static/media/blood.JPG": "/meghanasai.github.io/static/media/blood.2cb8eb6dd9e7b469ee75.JPG",
     "static/media/banner-bg.png": "/meghanasai.github.io/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/expense.png": "/meghanasai.github.io/static/media/expense.62ab57c45efa330cb6a3.png",
@@ -33,11 +34,11 @@
     "static/media/arrow1.svg": "/meghanasai.github.io/static/media/arrow1.1088f8313e5637897aff2414e5938141.svg",
     "static/media/nav-icon2.svg": "/meghanasai.github.io/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
     "main.76ae1015.css.map": "/meghanasai.github.io/static/css/main.76ae1015.css.map",
-    "main.7b160254.js.map": "/meghanasai.github.io/static/js/main.7b160254.js.map",
+    "main.0196cb5d.js.map": "/meghanasai.github.io/static/js/main.0196cb5d.js.map",
     "787.fb771931.chunk.js.map": "/meghanasai.github.io/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76ae1015.css",
-    "static/js/main.7b160254.js"
+    "static/js/main.0196cb5d.js"
   ]
 }
