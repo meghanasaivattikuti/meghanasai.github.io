@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/blood.JPG";
-import projImg2 from "../assets/img/second work.jpg";
-import projImg3 from "../assets/img/project1.jpg";
+import projImg2 from "../assets/img/expense.png";
+import projImg3 from "../assets/img/java.png";
 import projImg4 from "../assets/img/first work.jpg";
 import projImg5 from "../assets/img/fifth work.jpg";
 import projImg6 from "../assets/img/12345.jpg";
@@ -19,25 +19,14 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      description: "Design & Development",
+      description: "MERN Stack Project",
       imgUrl: projImg2,
     },
     {
       description: "Design & Development",
       imgUrl: projImg3,
     },
-    {
-      description: "Design & Development",
-      imgUrl: projImg4,
-    },
-    {
-      description: "Design & Development",
-      imgUrl: projImg5,
-    },
-    {
-      description: "Design & Development",
-      imgUrl: projImg6,
-    },
+  
   ];
 
   return (
@@ -63,25 +52,35 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
+                    <div class="rowMain">
+                      <figure>
+                      <img src={projImg1} alt="" class="myImg"></img>
+                      <figcaption class="captionc"> Full Stack Development </figcaption>
+                      </figure>
+                      <div class="columnMain">
+                   
+                    </div>                     
+                      <br></br> <br></br> <br></br>
+                      <figure>
+                      <img src={projImg2} alt="" class="myImg"></img>
+                      <figcaption class="captionc"> MERN Stack </figcaption>
+                      </figure>
+                      <div class="columnMain">
+                      
+                    </div>  
+                      <br></br> <br></br> <br></br>
+                      <figure>
+                      <img src={projImg3} alt="" class="myImg"></img>
+                      <figcaption class="captionc"> 
+                        Application Design and Development</figcaption>
+                      </figure>
+                      <div class="columnMain">
+               
+                    </div>  
+                    </div>
+
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    
                   </Tab.Content>
                 </Tab.Container>
               </div>}
